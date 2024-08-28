@@ -1,0 +1,64 @@
+layout:
+    bur_env:
+        - backup_tmp:
+          - CUSTOMER_0:
+            - 2018-12-04:
+              - volume0: ""
+              - volume1: ""
+        - mock: ""
+        - logs: ""
+        - restore: ""
+        - rpc_bkps:
+          - customer_deployment_0:
+              - 2018-12-04:
+                - volume0:
+                    - file:
+                        name: "backup_sha256file"
+                        type: "text"
+                        content: ""
+                    - file:
+                        name: "volume_file0.dat"
+                        type: "binary"
+                        content: "random"
+                        size: 102400
+                    - file:
+                        name: "volume_file1.dat"
+                        type: "binary"
+                        content: "random"
+                        size: 102400
+                    - file:
+                        name: "volume_file2.dat"
+                        type: "binary"
+                        content: "random"
+                        size: 102400
+                    - file:
+                        name: "backup_metadata"
+                        type: "metadata"
+                - volume1:
+                    - file:
+                        name: "backup_sha256file"
+                        type: "text"
+                        content: ""
+                    - file:
+                        name: "volume_file0.dat"
+                        type: "binary"
+                        content: "random"
+                        size: 102400
+                    - file:
+                        name: "volume_file1.dat"
+                        type: "binary"
+                        content: "random"
+                        size: 102400
+                    - file:
+                        name: "volume_file2.dat"
+                        type: "binary"
+                        content: "random"
+                        size: 102400
+                    - file:
+                        name: "backup_metadata"
+                        type: "metadata"
+                - file:
+                    name: "BACKUP_OK"
+                    type: "text"
+                    content: ""
+

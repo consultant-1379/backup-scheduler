@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+pytest = "*"
+mock = "*"
+pyyaml = "*"
+
+[packages]
+enum34 = "*"
+gnupg = "*"
+requests = "*"
+dill = "*"
+
+[requires]
+python_version = "2.7"

@@ -1,0 +1,7 @@
+layout:
+    bur_env:
+        - logs: ""
+        - backup_tmp: ""
+        - mock: ""
+        - restore: ""
+        - rpc_bkps: ""
